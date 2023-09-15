@@ -34,5 +34,5 @@ result <- result %>%
 
 # save data
 write.csv(result, file="climatology variables of 126 sites.csv", row.names = F)
-write.csv(points, file = "normalized climatology global datapoints.csv", row.names = F)
+write.csv(points, file = "RCC.csv", row.names = F)
 
